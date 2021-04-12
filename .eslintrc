@@ -1,0 +1,25 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "env": {
+        "node": true,
+        "es6": true
+      },
+    "plugins": ["prettier"],
+    "extends": [
+      "plugin:@typescript-eslint/eslint-recommended",
+      "eslint:recommended",
+      "typescript",
+      "prettier"
+    ],
+    "rules":{
+        "@typescript-eslint/no-var-requires": 0,
+        "no-multi-spaces": 1,
+        "no-with": 2,
+        "prefer-const": 2,
+        "no-console": 1,
+        "prefer-template": 2,
+        "no-multiple-empty-lines": 2,
+        "quotes": ["warn", "single"]
+    }
+  }
